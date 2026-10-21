@@ -1,8 +1,45 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 40px;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
-h1 {
-    color: navy;
+body{
+    font-family:Arial, sans-serif;
+}
+
+nav{
+    background:#0B2447;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:20px;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+}
+
+.hero{
+    text-align:center;
+    padding:100px 20px;
+}
+
+.hero h2{
+    font-size:48px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:20px;
+    max-width:700px;
+    margin:auto;
 }
